@@ -1,5 +1,5 @@
 #include<stdio.h>
-int factorial()
+int fact()
 {
  int i,fact=1,number;
  printf("Enter a number: ");
@@ -9,4 +9,4 @@ int factorial()
   }
   printf("Factorial of %d is: %d",number,fact);
 return 0;
-
+}
